@@ -1,12 +1,12 @@
-\name{VonMisesParameter3D}
-\alias{VonMisesParameter3D}
+\name{ConcentrationParameter3D}
+\alias{ConcentrationParameter3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Calculation of Von Mises concentration parameter of the angles}
+\title{Calculation of Von Mises concentration parameter of the angles.}
 \description{
    This function calculates the Von Mises concentration parameter a set of input coordinates.
 }
 \usage{
-VonMisesParameter3D(coord)
+ConcentrationParameter3D(coord)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -26,9 +26,9 @@ VonMisesParameter3D(coord)
 \references{
   Fisher N.I. , Lewis T. , Embleton, B.J.J. (1987) Statistical analysis of spherical data. Cambridge. Cambridge University Press.
 
-  Website \url{http://vecstat3d.mhostweb.com/}
+  Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo , M.E., \email{mepolo@unex.es}, Rodriguez, P.G.\email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
@@ -40,7 +40,7 @@ VonMisesParameter3D(coord)
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")
    dat<-LoadData3D(FileName, Type=3)
    coordinates<-dat[,4:6]
-   VonMisesParameter3D(coordinates)
+   ConcentrationParameter3D(coordinates)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

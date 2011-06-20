@@ -14,7 +14,7 @@ AllModuleStatistics3D(modules)
 }
 \details{
    One way to get a set of modules from the X, Y and Z in the original position and end position
-   (Coordinates X, Y and Z vector) or the colatitude and longitude, using the code \ (\ (link)) LoadData3D function.
+   (Coordinates X, Y and Z vector) or the colatitude and longitude, using the \code{\link{LoadData3D}} function.
    
    The statistics calculated are: \code{Number Of Elements, Max Value, Min Value, Range, Module Sum, Mean Arithmetic, Standard Error, Module Standard Deviation, Module Variance, Module Population Variance, Module Population Standard Deviation.}
 }
@@ -22,9 +22,9 @@ AllModuleStatistics3D(modules)
    The value All Module Statistics of all input modules.
 }
 \references{
-   Website \url{http://vecstat3d.mhostweb.com/}
+   Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

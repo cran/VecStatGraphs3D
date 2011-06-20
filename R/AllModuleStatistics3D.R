@@ -14,7 +14,7 @@ function(modules){
 			
   print("************************************************************");
   print("****                                                    ****");
-  print("****           SPHERICAL STATISTICS - MODULE            ****");
+  print("****           LINEAR  STATISTICS - MODULES             ****");
   print("****                                                    ****");
   print("************************************************************");
 	

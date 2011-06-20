@@ -1,15 +1,15 @@
 Arrows3D <-
-function(a, b, colo = "blue", headLength = 0.3, headWidth = 0.5, width = 1, transparent =FALSE, plano = "XY"){
+function(a, b, colo = "blue", headLength = 0.3, headWidth = 0.5, width = 1, transparent =FALSE, plane = "XY"){
   
   require(rgl)
   #a<-c(0,0,0)
-  if(plano=="XY"){
+  if(plane=="XY"){
     hN<-c(0,0,1)
   }
-  if(plano=="YZ"){
+  if(plane=="YZ"){
     hN<-c(1,0,0)
   }
-  if(plano=="XZ"){
+  if(plane=="XZ"){
     hN<-c(0,1,0)
   }
  

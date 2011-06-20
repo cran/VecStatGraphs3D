@@ -1,7 +1,7 @@
 \name{AllAngleStatistics}
 \alias{AllAngleStatistics}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Calculation of All Statistics of the Angle}
+\title{Calculation of All Statistics of the Angle.}
 \description{
    This function calculates several SPHERICAL data statistics from a set of input coordinates.
 }
@@ -16,7 +16,7 @@ AllAngleStatistics(coord)
    One way to get a set of coordinates  X, Y and Z of the origin position and end position 
    (coordinates X, Y and Z of the vector) or of the colatitude and longitude, it is using the \code{\link{LoadData3D}} function.
    
-   The statistics calculated are: \code{Spherical Standar Error, Mean Module, Von Mises Parameter, Mean Direction.}
+   The statistics calculated are: \code{Spherical Standar Error, Mean Module, Concentration Parameter, Mean Direction.}
 }
 \value{
   The value All Angle Statistics of all input X, Y and Z coordinates.
@@ -24,13 +24,13 @@ AllAngleStatistics(coord)
 \references{
   Fisher N.I. , Lewis T. , Embleton, B.J.J. (1987) Statistical analysis of spherical data. Cambridge. Cambridge University Press.
 
-  Website \url{http://vecstat3d.mhostweb.com/}
+  Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
 \seealso{
-   \code{\link{MeanModule3D}}, \code{\link{MeanDirection3D}}, \code{\link{SphericalStandardError3D}}, 
-   \code{\link{VonMisesParameter3D}}.
+   \code{\link{MeanModule3D}},\code{\link{MeanDirection3D}},\code{\link{SphericalStandardError3D}},
+   \code{\link{ConcentrationParameter3D}}.
 }
 \examples{
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")

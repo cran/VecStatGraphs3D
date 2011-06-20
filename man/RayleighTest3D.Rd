@@ -1,7 +1,7 @@
 \name{RayleighTest3D}
 \alias{RayleighTest3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Rayleigh Test. Formal test of uniformity}
+\title{Rayleigh Test. Formal test of uniformity.}
 \description{
    This function performs the Rayleigh test of uniformity.
 }
@@ -11,8 +11,7 @@ RayleighTest3D(coord, Alpha = 0.05)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{coord}{Matrix containing the values of the coordinates}
-  \item{Alpha}{Value used to obtain the Rayleigh Value of the Chi2 Table. 
-			The values can be 0.05, 0.025, 0.01, 0.005, 0.001, 0.0005.
+  \item{Alpha}{Value used to obtain the Rayleigh Value of the Chi2 Table. The values can be 0.05, 0.025, 0.01, 0.005, 0.001, 0.0005.
 			The default is 0.05.}
 }
 \details{
@@ -30,9 +29,9 @@ RayleighTest3D(coord, Alpha = 0.05)
 \references{
   Fisher N.I. , Lewis T. , Embleton, B.J.J. (1987) Statistical analysis of spherical data. Cambridge. Cambridge University Press.
 
-  Website \url{http://vecstat3d.mhostweb.com/}
+  Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

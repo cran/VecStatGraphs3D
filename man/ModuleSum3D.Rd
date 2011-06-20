@@ -1,7 +1,7 @@
 \name{ModuleSum3D}
 \alias{ModuleSum3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Calculation of the Sum of the Modules}
+\title{Calculation of the Sum of the Modules.}
 \description{
    This function calculates the sum of all modules.
 }
@@ -14,15 +14,15 @@ ModuleSum3D(modules)
 }
 \details{
    One way to get a set of modules from the X, Y and Z in the original position and end position
-   (Coordinates X, Y and Z vector) or the colatitude and longitude, using the code \ (\ (link)) LoadData3D function.
+   (Coordinates X, Y and Z vector) or the colatitude and longitude, using the \code{\link{LoadData3D}} function.
 }
 \value{
    The sum of all input modules.
 }
 \references{
-   Website \url{http://vecstat3d.mhostweb.com/}
+  Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

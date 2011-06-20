@@ -1,7 +1,7 @@
 \name{LoadData3D}
 \alias{LoadData3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Data loading and conversion of polar coordinates, rectangular coordinates, and measured and real coordinates}
+\title{Data loading and conversion of polar coordinates, rectangular coordinates, and measured and real coordinates.}
 \description{
   This function reads data from a txt file containing data of coordinates. Data can be read as polar coordinates, 
   rectangular coordinates or measured and real coordinates. This functions returns a matrix with all possible data 
@@ -13,8 +13,7 @@ LoadData3D(FileName, Type = 1)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{FileName}{File name to load data}
-  \item{Type}{Integer value that indicates the type of data contained in the file.
-			Type 1 = Rectangular, Type 2= Polar, Type 3 = Measured and Real}
+  \item{Type}{Integer value that indicates the type of data contained in the file. Type 1 = Rectangular, Type 2= Polar, Type 3 = Measured and Real}
 }
 \details{
    Input files must be in a certain format for the data type. By default the type is Rectangular.
@@ -47,9 +46,9 @@ LoadData3D(FileName, Type = 1)
    The columns 8, 9, 10, 11, 12 and 13 will only have value if the input data are of type 3 (measured and real).
 }
 \references{
-   Website \url{http://vecstat3d.mhostweb.com/}
+   Website \url{http://gim.unex.es/VecStatGraphs3D/} 
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

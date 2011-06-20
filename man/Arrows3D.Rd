@@ -2,16 +2,16 @@
 \alias{Arrows3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-   Internal function
+   Internal function.
 }
 \description{
    Internal function.
 }
 \usage{
-Arrows3D(a, b, colo = "blue", headLength = 0.3, headWidth = 0.5, width = 1, transparent = FALSE, plano = "XY")
+Arrows3D(a, b, colo = "blue", headLength = 0.3, headWidth = 0.5, width = 1, transparent = FALSE, plane = "XY")
 }
 
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo , M.E., \email{mepolo@unex.es}, Rodriguez, P.G.\email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

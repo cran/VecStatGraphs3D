@@ -1,7 +1,7 @@
 \name{StandardError3D}
 \alias{StandardError3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Calculation of the Standard Error of the modules}
+\title{Calculation of the Standard Error of the modules.}
 \description{
    This function calculates the standard error of the arithmetic mean of a set of input modules.
 }
@@ -20,9 +20,9 @@ StandardError3D(modules)
    The standard error of all input modules.
 }
 \references{
-   Website \url{http://vecstat3d.mhostweb.com/}
+  Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

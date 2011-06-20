@@ -1,7 +1,7 @@
 \name{DrawDensity3D}
 \alias{DrawDensity3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Graphic representation of a point Density Map}
+\title{Graphic representation of a point Density Map.}
 \description{
    The density map was built as follows: a) vectors are moved to a common origin without changing its angle and module, 
    b) end position perform a point cloud of varying density that depends on the accumulation of vectors with similar properties, 
@@ -20,7 +20,7 @@ DrawDensity3D(vectors, Div = 40, Layers = 3, DrawAxes = FALSE)
   \item{DrawAxes}{Logical value, if DrawAxes=TRUE draw axes, if DrawAxes=FALSE draw not axes. The default value is FALSE}
 }
 \details{
-   To create the density map, are used Kernel descriptors, to perform these calculations is required the \code{MASS} package.
+   To create the density map, are used Kernel descriptors, to perform these calculations is required the MASS package.
    
    The parameter Div is very important because a very large value will cause the creation of the slow density map, 
    and a very small value would create a ineffective density map. 
@@ -40,9 +40,9 @@ DrawDensity3D(vectors, Div = 40, Layers = 3, DrawAxes = FALSE)
   This function returns no value, creates a 3D Graph that represents a density map of the input values.
 }
 \references{
-  Website \url{http://vecstat3d.mhostweb.com/}
+  Website \url{http://gim.unex.es/VecStatGraphs2D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo , M.E., \email{mepolo@unex.es}, Rodriguez, P.G.\email{pablogr@unex.es}}
 
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

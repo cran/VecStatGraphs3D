@@ -39,7 +39,7 @@ function(vectors){
   for(i in 1:length(CRx)){
     #triangles3d(rbind(c(CRx[i],CRy[i],CRz[i]),c(CMx[i]*0.995,CMy[i]*1.01,CMz[i]*1.01),c(CMx[i]*0.997,CMy[i]/1.01,CMz[i]/1.01)),color="blue",lit=FALSE)
     
-    Arrows3D(c(CMx[i],CMy[i],CMz[i]),c(CRx[i],CRy[i],CRz[i]),colo="red", headLength = hL, headWidth = hW,transparent = FALSE,plano = "YZ")
+    Arrows3D(c(CMx[i],CMy[i],CMz[i]),c(CRx[i],CRy[i],CRz[i]),colo="red", headLength = hL, headWidth = hW,transparent = FALSE,plane = "YZ")
     #rgl.triangles(rbind(c(CRx[i],CRy[i],CRz[i]),
     #            c(CMx[i],CMy[i]+(module[i]*2.5),CMz[i]+(module[i]*2.5)),
     #            c(CMx[i],CMy[i]-(module[i]*2.5),CMz[i]-(module[i]*2.5))),

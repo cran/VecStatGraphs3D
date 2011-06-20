@@ -1,5 +1,5 @@
 DrawModuleAndAngleDistribution3D <-
-function(dat,Long = FALSE, hW = 0.5, hL = 0.3, plano, BarSlider = FALSE){
+function(dat,Long = FALSE, hW = 0.5, hL = 0.3, plane, BarSlider = FALSE){
   require(tcltk)
   require(rgl)
   value=5;
@@ -66,11 +66,11 @@ function(dat,Long = FALSE, hW = 0.5, hL = 0.3, plano, BarSlider = FALSE){
   
     #cero<-seq(length=length(Cx),from=0,by=0)
     #cero<-array(cero,dim=c(length(Cx),3))
-    #Arrows3D(cero,c(Cx,Cy,Cz),headWidth = hW, headLength = hL, plano = plano) 
+    #Arrows3D(cero,c(Cx,Cy,Cz),headWidth = hW, headLength = hL, plane = plane) 
   
     pb <- tkProgressBar(title = "Drawing ...", min = 0, max = length(Cx), width = 300)  
     for(i in 1:length(Cx)){
-      Arrows3D(c(0,0,0),c(Cx[i],Cy[i],Cz[i]),headWidth = hW, headLength = hL, plano = plano)
+      Arrows3D(c(0,0,0),c(Cx[i],Cy[i],Cz[i]),headWidth = hW, headLength = hL, plane = plane)
       setTkProgressBar(pb, i, label=paste( round(i/length(Cx)*100, 0),"% done"))
     }
     close(pb)
@@ -87,7 +87,7 @@ function(dat,Long = FALSE, hW = 0.5, hL = 0.3, plano, BarSlider = FALSE){
     #zz<-aperm(zz)
   
     #Representacion de Meadia Angulo
-    Arrows3D(c(0,0,0),c(Ax,Ay,Az),colo="red",width=2.5, headWidth = 1.5*hW, headLength = 1.5*hL, plano = plano)
+    Arrows3D(c(0,0,0),c(Ax,Ay,Az),colo="red",width=2.5, headWidth = 1.5*hW, headLength = 1.5*hL, plane = plane)
 
     if(Long==TRUE){
       f <- select3d()

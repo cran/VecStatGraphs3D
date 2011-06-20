@@ -1,7 +1,7 @@
 \name{MinValue3D}
 \alias{MinValue3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Calculation of the Minimum Value of the modules}
+\title{Calculation of the Minimum Value of the modules.}
 \description{
    This function calculates the minimum value of a set of modules.
 }
@@ -14,15 +14,15 @@ MinValue3D(modules)
 }
 \details{
    One way to get a set of modules from the X, Y and Z in the original position and end position
-   (Coordinates X, Y and Z vector) or the colatitude and longitude, using the code \ (\ (link)) LoadData3D function.
+   (Coordinates X, Y and Z vector) or the colatitude and longitude, using the \code{\link{LoadData3D}} function.
 }
 \value{
    The min value of all input modules.
 }
 \references{
-   Website \url{http://vecstat3d.mhostweb.com/}
+  Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Juan Carlos Ruiz Cuetos \email{bilba_t@hotmail.com}, Maria Eugenia Polo Garcia \email{mepolo@unex.es}, Pablo Garcia Rodriguez \email{pablogr@unex.es}}
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
