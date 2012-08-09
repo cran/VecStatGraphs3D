@@ -14,7 +14,7 @@ function(vectors, Div = 40, Layers = 3, DrawAxes = FALSE){
   Cr<-kde3d(x=Cx, y=Cy, z=Cz, n=Div)
   th <- seq(min(Cr$d),max(Cr$d),len = Layers+2)
   ramp <- colorRamp(c("white","yellow","red"))
-  colo <- rgb( ramp(seq(0, 1, length = Layers)), max = 255)
+  colo <- rgb( ramp(seq(0, 1, length = Layers)), maxColorValue = 255)
   al <- seq(0.1, 0.6, len = Layers)
   
   module=sqrt(Cx*Cx + Cy*Cy + Cz*Cz);

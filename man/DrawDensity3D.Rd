@@ -52,7 +52,7 @@ DrawDensity3D(vectors, Div = 40, Layers = 3, DrawAxes = FALSE)
 }
 \examples{
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")
-   dat<-LoadData3D(FileName, Type=3)
+   dat<-LoadData3D(FileName, Type=1)
    coordinates<-dat[,4:6]
    DrawDensity3D(coordinates, Layers=3, Div=50)
 }

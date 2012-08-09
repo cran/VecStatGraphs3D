@@ -43,7 +43,7 @@ DrawModuleAndAngleDistribution3D(dat, Long = FALSE, hW = 0.5, hL = 0.3, plane, B
 }
 \examples{
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")
-   dat<-LoadData3D(FileName, Type=3)
+   dat<-LoadData3D(FileName, Type=1)
    DrawModuleAndAngleDistribution3D(dat, plane="XY");
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

@@ -2,7 +2,7 @@
 \alias{VecStatGraphs3D-package}
 \alias{VecStatGraphs3D}
 \docType{package}
-\title{Vector analysis using graphical and analytical methods in 3D.}
+\title{Vector analysis using graphical and analytical methods in 3D}
 \description{
    This package performs a 3D statistical analysis, both numerical and 
    graphic, of a set of vectors. Since a vector has three components (a module and two angles) 
@@ -18,7 +18,7 @@
 Package: \tab VecStatGraphs3D\cr
 Type: \tab Package\cr
 Version: \tab 1.2\cr
-Date: \tab 2011-06-20\cr
+Date: \tab 2012-08-09\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab yes\cr
 }
@@ -28,7 +28,7 @@ LazyLoad: \tab yes\cr
 \author{
    Juan Carlos Ruiz Cuetos, Maria Eugenia Polo Garcia, Pablo Garcia Rodriguez.
 
-   Maintainer: Juan Carlos Ruiz Cuetos <bilba_t@hotmail.com>, Pablo Garcia Rodriguez <pablogr@unex.es>
+   Maintainer: Pablo Garcia Rodriguez <pablogr@unex.es>
 }
 \references{
   Fisher N.I. , Lewis T. , Embleton, B.J.J. (1987) Statistical analysis of spherical data. Cambridge. Cambridge University Press.

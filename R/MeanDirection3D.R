@@ -14,13 +14,13 @@ function(coord){
     meanLongitud<-atan(meanY/meanX);
   }
   if((meanY>0)&(meanX<0)){
-    meanLongitud<-atan(meanY/meanX)+180;
+    meanLongitud<-atan(meanY/meanX)+pi;
   }
   if((meanY<0)&(meanX<0)){
-    meanLongitud<-atan(meanY/meanX)+180;
+    meanLongitud<-atan(meanY/meanX)+pi;
   }
   if((meanY<0)&(meanX>0)){
-    meanLongitud<-atan(meanY/meanX)+360;
+    meanLongitud<-atan(meanY/meanX)+2*pi;
   }
   meanLongitud<-ToSexagesimal3D(meanLongitud);
   

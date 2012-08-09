@@ -34,7 +34,7 @@ ArithmeticMean3D(modules)
 }
 \examples{
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")
-   dat<-LoadData3D(FileName, Type=3)
+   dat<-LoadData3D(FileName, Type=1)
    modules<-dat[,1]
    ArithmeticMean3D(modules)
 }

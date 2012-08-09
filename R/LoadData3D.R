@@ -1,18 +1,23 @@
 LoadData3D <-
-function(FileName, Type = 1){
+function(FileName, Type = 2){
   data_=ReadFromFile3D(FileName);
   if(length(data_) > 1){
     if(CorrectType3D(Type,data_) == FALSE){
-      switch (Type,print("Error, the file is not of Rectangular type"),
-              print("Error, the file is not of Polar coordinates type"),
-              print("Error, the file is not of (X origin, Y origin, Z origin) - (X end, Y end, Z end) type"));
+      switch (Type,print("Error, the file is not of (X origin, Y origin, Z origin) - (X end, Y end, Z end) type"),
+		  print("Error, the file is not of Rectangular type"),
+              print("Error, the file is not of Polar coordinates type"));
     }    
     else {       
-      if(Type==1){
+       if(Type==1){
+		error=ToCalculateError3D(data_);
+        polar_vectors=VectorsToPolar3D(error);
+        rectangular_vectors=error;
+        }
+	if(Type==2){
           polar_vectors=VectorsToPolar3D(data_);	
           rectangular_vectors=data_;
 	  }
-      if(Type==2){
+      if(Type==3){
           rectangular_vectors=VectorsToRectangular3D(data_);
           if(dim(data_)==3){
 			polar_vectors=data_[,(2:3)];
@@ -21,11 +26,7 @@ function(FileName, Type = 1){
 			polar_vectors=data_;
 		  }
 	  }
-      if(Type==3){
-		error=ToCalculateError3D(data_);
-        polar_vectors=VectorsToPolar3D(error);
-        rectangular_vectors=error;
-      }
+     
       
 	  x<-rectangular_vectors[,1];
 	  y<-rectangular_vectors[,2];
@@ -42,7 +43,7 @@ function(FileName, Type = 1){
 	  res[,6]=rectangular_vectors[,3];
       res[1,7]=Type;
       res[2,7]=1111;
-      if(Type==3){
+      if(Type==1){
         res[2,7]=9999;
         res[,8]=data_[,1];
         res[,9]=data_[,2];

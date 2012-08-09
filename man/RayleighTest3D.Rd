@@ -40,7 +40,7 @@ RayleighTest3D(coord, Alpha = 0.05)
 }
 \examples{
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")
-   dat<-LoadData3D(FileName, Type=3)
+   dat<-LoadData3D(FileName, Type=1)
    coordinates<-dat[,4:6]
    RayleighTest3D(coordinates, Alpha = 0.05)
 }

@@ -46,7 +46,7 @@ function(vectors){
     #            color="#6495ED",lit=FALSE)
   }
   
-  rgl.material(col="black")
+  rgl.material(color="black")
   decorate3d()
   grid3d(c("x","y+","z"))
   
