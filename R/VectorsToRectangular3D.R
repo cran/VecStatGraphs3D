@@ -1,6 +1,6 @@
 VectorsToRectangular3D <-
 function(vectors){
-  num_data=dim(vectors);
+  num_data=dim(vectors)[2];
   rectangular_vectors=vectors;
   if(num_data==3){
 	module=vectors[,1]

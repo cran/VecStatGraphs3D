@@ -36,11 +36,11 @@ function(FileName, Type = 2){
       num_data=dim(data_);
       res=matrix(nrow=num_data[1],ncol=13); 
       res[,1]=module;
-	  res[,2]=polar_vectors[,1];
+	res[,2]=polar_vectors[,1];
       res[,3]=polar_vectors[,2];
       res[,4]=rectangular_vectors[,1];
       res[,5]=rectangular_vectors[,2];
-	  res[,6]=rectangular_vectors[,3];
+	res[,6]=rectangular_vectors[,3];
       res[1,7]=Type;
       res[2,7]=1111;
       if(Type==1){
