@@ -13,7 +13,7 @@ function(value){
   done=0;
   aux_function_slider<- function()
   {
-    val <- as.real(tclvalue(SliderValue))
+    val <- as.double(tclvalue(SliderValue))
     tclvalue(done) <- 1
     return(val);
   }
