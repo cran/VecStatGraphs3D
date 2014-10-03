@@ -17,7 +17,7 @@ MeanDirection3D(coord)
    (coordinates X, Y and Z of the vector) or of the colatitude and longitude, it is using the \code{\link{LoadData3D}} function.
 }
 \value{
-   The Value Mean Direction of all input coordinates. The value is expressed in sexagesimal.
+   The mean direction value of all input coordinates. The value is expressed in sexagesimal.
 }
 \references{
   Fisher N.I. , Lewis T. , Embleton, B.J.J. (1987) Statistical analysis of spherical data. Cambridge. Cambridge University Press.

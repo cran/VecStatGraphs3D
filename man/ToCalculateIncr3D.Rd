@@ -1,5 +1,5 @@
-\name{ToCalculateError3D}
-\alias{ToCalculateError3D}
+\name{ToCalculateIncr3D}
+\alias{ToCalculateIncr3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
   Internal function.
@@ -8,11 +8,16 @@
    Internal function.
 }
 \usage{
-ToCalculateError3D(vectors)
+ToCalculateIncr3D(coord)
 }
 %- maybe also 'usage' for other objects documented here.
 
-\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
+\author{Felicisimo, A.M., \email{amfeli@unex.es},
+Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, 
+Polo, M.E., \email{mepolo@unex.es}, 
+Cuartero, A., \email{acuartero@unex.es}, 
+Rodriguez, P.G. \email{pablogr@unex.es}}
+
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

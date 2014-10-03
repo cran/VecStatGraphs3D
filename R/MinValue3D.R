@@ -1,5 +1,4 @@
-MinValue3D <-
-function(modules){
-  return(min(modules));
+MinValue3D <- function (modules) 
+{
+    return(min(modules))
 }
-

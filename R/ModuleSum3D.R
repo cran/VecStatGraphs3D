@@ -1,5 +1,4 @@
-ModuleSum3D <-
-function(modules){
-  return(sum(modules));
+ModuleSum3D <- function (modules) 
+{
+    return(sum(modules))
 }
-

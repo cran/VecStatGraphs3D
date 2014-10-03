@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Calculation of Mean Arithmetic modules.}
 \description{
-   This function calculates the Arithmetic Mean of a set of modules
+   This function calculates the arithmetic mean of a set of modules
 }
 \usage{
 ArithmeticMean3D(modules)

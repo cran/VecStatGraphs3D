@@ -6,11 +6,12 @@
    This function calculates several statistics from a set of input modules.
 }
 \usage{
-AllModuleStatistics3D(modules)
+AllModuleStatistics3D(modules, ndig=4)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{modules}{Vector containing the values of the modules}
+  \item{ndig}{Integer value that indicates the decimal places. The default value is 4}
 }
 \details{
    One way to get a set of modules from the X, Y and Z in the original position and end position
@@ -24,8 +25,10 @@ AllModuleStatistics3D(modules)
 \references{
    Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
 
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Felicisimo, A.M., \email{amfeli@unex.es}, 
+Cuartero, A., \email{acuartero@unex.es}, Polo, M.E., \email{mepolo@unex.es}, 
+Rodriguez, P.G. \email{pablogr@unex.es}}
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
@@ -38,7 +41,7 @@ AllModuleStatistics3D(modules)
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")
    dat<-LoadData3D(FileName, Type=1)
    modules<-dat[,1]
-   AllModuleStatistics3D(modules)
+   AllModuleStatistics3D(modules, ndig=4)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

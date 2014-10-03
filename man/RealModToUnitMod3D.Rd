@@ -1,14 +1,15 @@
-\name{VectorsToPolar3D}
-\alias{VectorsToPolar3D}
+\name{RealModToUnitMod3D}
+\alias{RealModToUnitMod3D}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
    Internal function.
 }
 \description{
-   Internal function.
+   transforms vectors of arbitrary module to unit vectors
+
 }
 \usage{
-VectorsToPolar3D(incr)
+RealModToUnitMod3D(incr)
 }
 %- maybe also 'usage' for other objects documented here.
 

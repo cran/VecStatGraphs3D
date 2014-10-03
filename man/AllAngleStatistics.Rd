@@ -3,14 +3,15 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Calculation of All Statistics of the Angle.}
 \description{
-   This function calculates several SPHERICAL data statistics from a set of input coordinates.
+   This function calculates several statistics for unit and non-unit vectors from a set of input coordinates.
 }
 \usage{
-AllAngleStatistics(coord)
+AllAngleStatistics(incr, ndig=4)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{coord}{Matrix containing the values of the coordinates}
+  \item{incr}{Matrix containing the values of the coordinates}
+  \item{ndig}{Integer value that indicates the decimal places. The default value is 4}
 }
 \details{
    One way to get a set of coordinates  X, Y and Z of the origin position and end position 
@@ -26,17 +27,21 @@ AllAngleStatistics(coord)
 
   Website \url{http://gim.unex.es/VecStatGraphs3D/}
 }
-\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
+
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Felicisimo, A.M., \email{amfeli@unex.es}, 
+Cuartero, A., \email{acuartero@unex.es}, Polo, M.E., \email{mepolo@unex.es}, 
+Rodriguez, P.G. \email{pablogr@unex.es}}
 
 \seealso{
-   \code{\link{MeanModule3D}},\code{\link{MeanDirection3D}},\code{\link{SphericalStandardError3D}},
+   \code{\link{MeanModule3D}},\\ \code{\link{MeanDirection3D}},
+   \code{\link{SphericalStandardError3D}},
    \code{\link{ConcentrationParameter3D}}.
 }
 \examples{
    FileName<-system.file("data/XYZcoor.txt", package="VecStatGraphs3D")
    dat<-LoadData3D(FileName, Type=1)
    coordinates<-dat[,4:6]
-   AllAngleStatistics(coordinates)
+   AllAngleStatistics(coordinates, ndig=4)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

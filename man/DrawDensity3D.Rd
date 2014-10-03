@@ -20,7 +20,7 @@ DrawDensity3D(vectors, Div = 40, Layers = 3, DrawAxes = FALSE)
   \item{DrawAxes}{Logical value, if DrawAxes=TRUE draw axes, if DrawAxes=FALSE draw not axes. The default value is FALSE}
 }
 \details{
-   To create the density map, are used Kernel descriptors, to perform these calculations is required the MASS package.
+   Kernel descriptors are used to create the density map. To perform these calculations the MASS package is required.
    
    The parameter Div is very important because a very large value will cause the creation of the slow density map, 
    and a very small value would create a ineffective density map. 
@@ -42,8 +42,9 @@ DrawDensity3D(vectors, Div = 40, Layers = 3, DrawAxes = FALSE)
 \references{
   Website \url{http://gim.unex.es/VecStatGraphs2D/}
 }
-\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo , M.E., \email{mepolo@unex.es}, Rodriguez, P.G.\email{pablogr@unex.es}}
-
+\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Felicisimo, A.M., \email{amfeli@unex.es}, 
+Cuartero, A., \email{acuartero@unex.es}, Polo, M.E., \email{mepolo@unex.es}, 
+Rodriguez, P.G. \email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Calculation of the Range of the modules.}
 \description{
-   This function calculates the Range (Difference between maximum and minimum value of the module) of a set of modules
+   This function calculates the range (difference between maximum and minimum value of the module) of a set of modules
 }
 \usage{
 Range3D(modules)

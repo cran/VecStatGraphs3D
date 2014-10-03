@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Calculation of the Mean Module of the angles.}
 \description{
-   This function calculates the Mean Module from a set of input coordinates.
+   This function calculates the mean module from a set of input coordinates.
 }
 \usage{
 MeanModule3D(coord)
@@ -17,7 +17,7 @@ MeanModule3D(coord)
    (coordinates X, Y and Z of the vector) or of the colatitude and longitude, it is using the \code{\link{LoadData3D}} function.
 }
 \value{
-   The value Mean module of all input coordinates.
+   The mean module value of all input coordinates.
 }
 \references{
   Fisher N.I. , Lewis T. , Embleton, B.J.J. (1987) Statistical analysis of spherical data. Cambridge. Cambridge University Press.

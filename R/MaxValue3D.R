@@ -1,5 +1,4 @@
-MaxValue3D <-
-function(modules){
-  return(max(modules));
+MaxValue3D <- function (modules) 
+{
+    return(max(modules))
 }
-

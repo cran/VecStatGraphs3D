@@ -8,7 +8,7 @@
    Internal function.
 }
 \usage{
-Arrows3D(a, b, colo = "blue", headLength = 0.3, headWidth = 0.5, width = 1, transparent = FALSE, plane = "XY")
+Arrows3D(a, b, colo="SkyBlue3", hL=0.3, hW=0.5, width=1, transparent=FALSE, plane="XY")
 }
 
 \author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo , M.E., \email{mepolo@unex.es}, Rodriguez, P.G.\email{pablogr@unex.es}}

@@ -16,7 +16,7 @@ LoadData3D(FileName, Type = 2)
 \details{
    Input files must be in a certain format for the data type. By default the type is incremental data (Type = 2).
 
-   The cartesian coordinate type contains six columns, defining the coordinates of a vector. The first three columns represent the X, Y and Z coordinates of the final data and the last three columns represents the coordinates of the initial data, and each row corresponds to one of the data. If necessary, the inverse order can be used to adapt the direction to our data.
+   The cartesian coordinate type contains six columns, defining the coordinates of a vector. The first three columns represent the X, Y and Z coordinates of the intial data and the last three columns represents the coordinates of the final data, and each row corresponds to one of the data. If necessary, the inverse order can be used to adapt the direction to our data.
    
    The incremental data type contains three columns, the first column is the increase of X coordinate, the second column is the increase of Y coordinate and the third column is the increase of Z coordinates, and each row corresponds to one of the data. The X coordinate, Y coordinate and Z coordinate are obtained from the difference of the final node with respect to the initial node.
    
@@ -31,15 +31,18 @@ LoadData3D(FileName, Type = 2)
    }
 }
 \value{
-   The function returns a nx13 matrix size , where n is the number of data. The column 1 represents the module, the  column 2 represents the colatitude, the column 3 represents the longitude, the column 4 represents the increase of X coordinate, the column 5 represents the increase of Y coordinate, the column 6 represents the increase of Z coordinate, the column 7 represents the type of input data, the column 8, 9 and 10 represent the X, Y and Z coordinates of the final data, the column 11, 12 and 13 represent the X, Y and Z coordinates of the initial data.
+   The function returns a nx13 matrix size , where n is the number of data. The column 1 represents the module, the  column 2 represents the colatitude, the column 3 represents the longitude, the column 4 represents the increase of X coordinate, the column 5 represents the increase of Y coordinate, the column 6 represents the increase of Z coordinate, the column 7 represents the type of input data, the column 8, 9 and 10 represent the X, Y and Z coordinates of the initial data, the column 11, 12 and 13 represent the X, Y and Z coordinates of the final data.
    
-   The columns 8, 9, 10, 11, 12 and 13 will only have value if the input data are of Type 1 (cartesian coordinates).
+   The columns 8, 9, 10, 11, 12 and 13 will only have values if the input data are of Type 1 (cartesian coordinates).
 }
 \references{
    Website \url{http://gim.unex.es/VecStatGraphs3D/} 
 }
-\author{Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, Polo, M.E., \email{mepolo@unex.es}, Rodriguez, P.G. \email{pablogr@unex.es}}
-
+\author{Felicisimo, A.M., \email{amfeli@unex.es},
+Ruiz-Cuetos, J.C., \email{bilba_t@hotmail.com}, 
+Polo, M.E., \email{mepolo@unex.es}, 
+Cuartero, A., \email{acuartero@unex.es}, 
+Rodriguez, P.G. \email{pablogr@unex.es}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

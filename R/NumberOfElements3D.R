@@ -1,5 +1,4 @@
-NumberOfElements3D <-
-function(modules){
-  return(length(modules));
+NumberOfElements3D <- function (modules) 
+{
+    return(length(modules))
 }
-
